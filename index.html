@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en-us">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="author" content="JIBIN N">
+  <title>Beautiful Layout</title>
+  <link href="styles.css" rel="stylesheet" type="text/css">
+  <style>
+    /* Add your additional styles here */
+    header {
+      background-color: #a8df96;
+      color: #d01010;
+      text-align: center;
+      padding: 1em 0;
+    }
+
+    footer {
+      background-color: #333;
+      color: #fff;
+      text-align: center;
+      padding: 1em 0;
+    }
+
+    .footer-images {
+      display: flex;
+      justify-content: center;
+      margin-top: 20px;
+    }
+
+    .footer-images img {
+      width: 50px;
+      margin: 0 10px;
+    }
+
+    main p {
+      font-size: 1.1em;
+      line-height: 1.6;
+      color: #555;
+    }
+
+    main h1 {
+      color: #333;
+    }
+  </style>
+</head>
+
+<body>
+
+  <header>
+    <div class="logo">
+      My Beautiful Website!
+    </div>
+    <nav>
+      <ul>
+        <li><a href="#">Home</a></li>
+        <li><a href="#">Blog</a></li>
+        <li><a href="#">About us</a></li>
+        <li><a href="#">Our history</a></li>
+        <li><a href="#">Contacts</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main class="grid">
+    <article>
+      <h1>Exploring Layouts in HTML and CSS</h1>
+      <img src="images/balloon-sq1.jpg" alt="Layout Example" class="feature">
+      <p>Creating diverse and visually appealing layouts is a crucial aspect of web development. HTML and CSS provide several techniques to achieve versatile designs, catering to various needs.</p>
+    
+      <p>One popular layout technique is the responsive design using CSS Grid and Flexbox. These tools allow developers to create flexible and adaptive layouts that seamlessly adjust to different screen sizes. CSS Grid provides a two-dimensional grid system, while Flexbox offers a one-dimensional layout model, both enhancing the responsiveness of websites.</p>
+    
+      <p>Another approach is the use of CSS frameworks like Bootstrap or Tailwind CSS. These frameworks provide pre-built components and a responsive grid system, simplifying the process of creating complex layouts. They offer a convenient way to maintain consistency across web pages and ensure a responsive design without starting from scratch.</p>
+    
+      <p>Lastly, CSS media queries play a vital role in adapting layouts based on the user's device characteristics. By specifying different styles for various screen sizes, developers can optimize the user experience for desktops, tablets, and mobile devices. Media queries enable the creation of a truly responsive and user-friendly interface.</p>
+    </article>
+
+    <aside>
+      <h2>Photography</h2>
+      <ul class="photos">
+        <li><img src="images/balloon-sq1.jpg" alt="Photo 1"></li>
+        <li><img src="images/balloon-sq2.jpg" alt="Photo 2"></li>
+        <li><img src="images/balloon-sq3.jpg" alt="Photo 3"></li>
+        <li><img src="images/balloon-sq4.jpg" alt="Photo 4"></li>
+        <li><img src="images/balloon-sq5.jpg" alt="Photo 5"></li>
+        <li><img src="images/balloon-sq5.jpg" alt="Photo 5"></li>
+      </ul>
+    </aside>
+    
+    </main>
+    <ul class="photos">
+      <li><img src="images/balloon-sq5.jpg" alt="Layout Photo 1"></li>
+      <li><img src="images/balloon-sq3.jpg" alt="Layout Photo 2"></li>
+      <li><img src="images/balloon-sq5.jpg" alt="Layout Photo 3"></li>
+      <!-- Add more layout photos as needed -->
+    </ul>
+  <footer>
+    <div>
+      <p>JIBIN N , MES College Marampally, Aluva</p>
+      <p>Mulearn ID: jibinn@mulearn, Email: jibintcr@gmail.com</p>
+    </div>
+    <div class="footer-images">
+      <img src="images/icon1.png" alt="Icon 1">
+      <img src="images/icon2.png" alt="Icon 2">
+      <img src="images/icon3.png" alt="Icon 3">
+      <!-- Add more images as needed -->
+    </div>
+  </footer>
+
+</body>
+
+</html>
